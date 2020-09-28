@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup, FormBuilder, FormControl, Validators, NgForm } from '@angular/forms'
+import { EmailFormService } from '../email-form.service';
 
 @Component({
   selector: 'app-contact-servicing-repairs',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactServicingRepairsComponent implements OnInit {
 
-  constructor() { }
+  FormData: FormGroup;
+  constructor(private builder: FormBuilder, private contact: EmailFormService) { }
 
-  ngOnInit(): void {
-  }
-
-}
+  ngOnInit() {
+    this.FormData = this.builder.group({
+      Fullname: new FormControl('', [Validators.required]),
+      Email: new FormControl('', [Validators.compose([Validators.required, Validators.email])]),
+      Comment: new FormControl('', [Validators.required])
+    });
+  }}
