@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'jlaFormPoc';
-}
+  title = 'jlaFormPoc'; }
+
+//sendEmail() {
+ // const callable = this.fun.httpsCallable('genericEmail');
+  //callable({ text: 'Sending email with Angular and SendGrid is fun!', subject: 'Email from Angular'}).subscribe();
+//}
+//}
