@@ -21,6 +21,7 @@ import { ContactComponent } from './contact/contact.component';
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
+    FormsModule,
     AppRoutingModule,
     HttpClientModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
