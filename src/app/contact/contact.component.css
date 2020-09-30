@@ -1,0 +1,75 @@
+.contact-block {
+    border-radius: 0.5rem;
+    padding: 2rem;
+    margin: 1rem 0;
+    box-shadow: 0 3px 5px 0 rgba(154,160,185,.05), 0 10px 20px 0 rgba(166,173,201,.2);
+    transition: background-color 0.5s ease;
+    border-top: 9px solid #0971ce;
+    display: block;
+    cursor: pointer;
+}
+
+.text-center {
+    text-align: center;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.full-width-page .site-wide .section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.padding-top3 {
+    padding-top: 3rem;
+}
+.padding-bottom1 {
+    padding-bottom: 1rem;
+}
+.backgroundlightgrey {
+    background: #f3f3f3;
+}
+
+.sentencecase {
+    text-transform: none;
+}
+.extrabold {
+    font-weight: 800;
+}
+
+.blue-text {
+    color: #00203c;
+}
+
+.btn--ghost {
+    background-color: #fff;
+    border: 1px solid #0b2240;
+    color: #0b2240;
+    border-radius: 5px;
+    padding: 0.625rem 1.875rem;
+    cursor: pointer;
+}
+
+.btn {
+    transition: 0.3s;
+    margin-bottom: 1rem;
+}
+
+.btn--default {
+    color: #fff;
+    padding: 0.625rem 1.25rem;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    border: 1px solid #0b2240;
+    border-radius: 5px;
+    background-color: #0b2240;
+}
+
+.full-width-page .site-wide .section .grid-container {
+    max-width: 66.875rem;
+    margin: 0 auto;
+    overflow: visible;
+}
+
