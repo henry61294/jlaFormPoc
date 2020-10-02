@@ -1,3 +1,11 @@
+.header__contact-inner .InfinityNumber a {
+    color: #e8c741;
+}
+
+.header__desktop-nav a:last-of-type {
+    color: #e8c741;
+}
+
 .full-width-page .site-wide .section {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -89,10 +97,7 @@ body {
     font-family: "Montserrat",Arial;
     margin: 0;
 }
-body {
-    font-family: "Montserrat",Arial;
-    margin: 0;
-}
+
 html {
     color: #3c4249;
     min-height: 100%;
@@ -104,21 +109,106 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
-html {
-    color: #3c4249;
-    min-height: 100%;
-    box-sizing: border-box;
-    line-height: 1.625rem;
-}
+
 *, *:after, *:before {
     box-sizing: inherit;
 }
-*, *:after, *:before {
-    box-sizing: inherit;
+
+.btn {
+    transition: 0.3s;
+    margin-bottom: 1rem;
 }
-*, *:after, *:before {
-    box-sizing: inherit;
+
+.btn--default {
+    color: #fff;
+    padding: 0.625rem 1.25rem;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    border: 1px solid #0b2240;
+    border-radius: 5px;
+    background-color: #0b2240;
 }
-*, *:after, *:before {
+
+.btn--success {
+    border: 1px solid #569501;
+    background-color: #569501;
+    padding: 0.625rem 1.875rem;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.livechat_button a {
+    color: #fff;
+}
+
+.contact-block-form .form__holder {
+    border: 0;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    margin: 1rem 0;
+    box-shadow: 0 3px 5px 0 rgba(154,160,185,.05), 0 10px 20px 0 rgba(166,173,201,.2);
+    transition: background-color 0.5s ease;
+    border-top: 9px solid #0b2240;
+    display: block;
+    cursor: pointer;
+}
+
+.sentencecase {
+    text-transform: none;
+}
+.extrabold {
+    font-weight: 800;
+}
+.blue-text {
+    color: #00203c;
+}
+
+p.lead {
+    font-size: 1.125rem;
+}
+.semibold {
+    font-weight: 600;
+}
+.mid-blue-text {
+    color: #0971ce;
+}
+.text-center {
+    text-align: center;
+}
+.light {
+    font-weight: 300;
+}
+
+.form-compact .form__holder .btn--primary.btn--reset {
+    margin-bottom: 0rem;
+    max-width: 100%;
+}
+
+.form__holder .btn--primary.btn--reset {
+    border: 1px solid #569501;
+    background-color: #569501;
+    color: #fff;
+}
+
+.padding-top3 {
+    padding-top: 3rem;
+}
+
+.padding-bottom1 {
+    padding-bottom: 1rem;
+}
+.section-block {
+    margin: 4rem auto;
+}
+
+element.style {
     box-sizing: inherit;
+    margin-bottom: 0.9375rem;
+    color: rgb(60, 66, 73);
+}
+
+.small-text {
+    font-size: 0.8rem;
 }

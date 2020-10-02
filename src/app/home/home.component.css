@@ -1,3 +1,12 @@
+.header__contact-inner .InfinityNumber a {
+  color: #e8c741;
+}
+
+.header__desktop-nav a:last-of-type {
+  color: #e8c741;
+}
+
+
 .svg-inline--fa {
     display: inline-block;
     font-size: inherit;
