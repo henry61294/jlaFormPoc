@@ -6,6 +6,14 @@
   color: #e8c741;
 }
 
+.header__holder.is-locked {
+  position: fixed;
+  top: 0;
+}
+
+.header__holder.is-on {
+  transform: translateY(0);
+}
 
 .svg-inline--fa {
     display: inline-block;

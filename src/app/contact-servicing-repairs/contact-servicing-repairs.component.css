@@ -6,6 +6,15 @@
     color: #e8c741;
 }
 
+.header__holder.is-locked {
+    position: fixed;
+    top: 0;
+}
+
+.header__holder.is-on {
+    transform: translateY(0);
+}
+
 .full-width-page .site-wide .section {
     padding-left: 1rem;
     padding-right: 1rem;
