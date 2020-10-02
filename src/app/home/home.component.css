@@ -463,9 +463,9 @@
   .fad.fa-inverse {
     color: #fff;
   }
-  .banner-home.banner-home-laundry {
-    background: url(https://res.cloudinary.com/jlateam/image/upload/c_scale,w_1920/v1588331378/banneritems/washer-banner-opt.jpg) no-repeat left center;
-    background-size: cover;
+.banner-home.banner-home-laundry {
+  background: url(https://res.cloudinary.com/jlateam/image/upload/c_scale,w_1920/v1588331378/banneritems/washer-banner-opt.jpg) no-repeat left center;
+  background-size: cover;
 }
 .fade-in.three {
   -webkit-animation-delay: 1.3s;
@@ -493,17 +493,7 @@
   border-radius: 5px;
   
 }
-.btn {
-  transition: 0.3s;
-  margin-bottom: 1rem;
-}
-.btn {
-  font-weight: 700;
-  font-size: 0.875rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  display: inline-block;
-}
+
 .banner-home-intro .btn--ghost {
   background: none;
 }
@@ -518,13 +508,14 @@
   transition: 0.3s;
   margin-bottom: 1rem;
 }
-.btn {
-  font-weight: 700;
-  font-size: 0.875rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  display: inline-block;
+
+.btn--otex {
+  border: 1px solid #66DCA2;
+  background-color: #66DCA2;
+  color: #0b2240;
 }
+
+
 .btn--default {
   color: #fff;
   padding: 0.625rem 1.25rem;
@@ -534,17 +525,7 @@
   border-radius: 5px;
   background-color: #0b2240;
 }
-.btn {
-  transition: 0.3s;
-  margin-bottom: 1rem;
-}
-.btn {
-  font-weight: 700;
-  font-size: 0.875rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  display: inline-block;
-}
+
 .service-tile .text-area {
   padding: 0.5rem;
 }
