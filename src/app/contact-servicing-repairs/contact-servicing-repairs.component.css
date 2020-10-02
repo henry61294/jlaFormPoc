@@ -95,9 +95,7 @@ html {
 *, *:after, *:before {
     box-sizing: inherit;
 }
-*, *:after, *:before {
-    box-sizing: inherit;
-}
+
 user agent stylesheet
 div {
     display: block;
@@ -220,4 +218,13 @@ element.style {
 
 .small-text {
     font-size: 0.8rem;
+}
+
+.ktc-default-section .field-wrapper {
+    align-items: flex-start;
+    margin-bottom: 0.25rem;
+}
+
+#form0 .ktc-default-section .field-wrapper, #form1 .ktc-default-section .field-wrapper {
+    display: block;
 }
