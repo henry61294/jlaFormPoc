@@ -455,4 +455,183 @@
   .fad.fa-inverse {
     color: #fff;
   }
+  .banner-home.banner-home-laundry {
+    background: url(https://res.cloudinary.com/jlateam/image/upload/c_scale,w_1920/v1588331378/banneritems/washer-banner-opt.jpg) no-repeat left center;
+    background-size: cover;
+}
+.fade-in.three {
+  -webkit-animation-delay: 1.3s;
+  -moz-animation-delay: 1.3s;
+  animation-delay: 1.3s;
+}
+.sentencecase {
+  text-transform: none;
+}
+.semibold {
+  font-weight: 600;
+}
+.white-text {
+  color: #fff;
+}
+.btn--otex {
+  border: 1px solid #66DCA2;
+  background-color: #66DCA2;
+  color: #0b2240;
+}
+.btn--default { 
+  padding: 0.625rem 1.25rem;
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+  border-radius: 5px;
   
+}
+.btn {
+  transition: 0.3s;
+  margin-bottom: 1rem;
+}
+.btn {
+  font-weight: 700;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+}
+.banner-home-intro .btn--ghost {
+  background: none;
+}
+.btn--ghost {
+  border: 1px solid #0b2240;
+  color: #0b2240;
+  border-radius: 5px;
+  padding: 0.625rem 1.875rem;
+  cursor: pointer;
+}
+.btn {
+  transition: 0.3s;
+  margin-bottom: 1rem;
+}
+.btn {
+  font-weight: 700;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+}
+.btn--default {
+  color: #fff;
+  padding: 0.625rem 1.25rem;
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+  border: 1px solid #0b2240;
+  border-radius: 5px;
+  background-color: #0b2240;
+}
+.btn {
+  transition: 0.3s;
+  margin-bottom: 1rem;
+}
+.btn {
+  font-weight: 700;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+}
+.service-tile .text-area {
+  padding: 0.5rem;
+}
+.text-center {
+  text-align: center;
+}
+*, *:after, *:before {
+  box-sizing: inherit;
+}
+.service-tile {
+  background: #0c223f;
+  display: block;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+.service-tile h3 {
+  margin-bottom: 0.625rem;
+  font-size: 1.5rem;
+}
+.letter-spacing-sm {
+  letter-spacing: 0.0625rem;
+}
+.extrabold {
+  font-weight: 800;
+}
+.white-text-opacity9 {
+  color: rgba(255,255,255,0.9);
+}
+.line-height-sm {
+  line-height: 1.3;
+}
+.light {
+  font-weight: 300;
+}
+.white-text-opacity6 {
+  color: rgba(255,255,255,0.6);
+}
+column {
+  max-width: 100%;
+  min-width: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* grey box */
+.margin-bottom2 {
+  margin-bottom: 2rem;
+}
+.margin-top0 {
+  margin-top: 0rem;
+}
+.backgroundlightgrey {
+  background: #f3f3f3;
+}
+*, *:after, *:before {
+  box-sizing: inherit;
+}
+.section-block {
+  margin: 4rem auto;
+}
+.extrabold {
+  font-weight: 800;
+}
+.blue-text {
+  color: #00203c;
+}
+.padding-right2 {
+  padding-right: 2rem;
+}
+.padding-left2 {
+  padding-left: 2rem;
+}
+.padding-bottom2 {
+  padding-bottom: 2rem;
+}
+.padding-top2 {
+  padding-top: 2rem;
+}
+.border-left-yellow {
+  border-left: 10px solid #e8c741;
+}
+.backgroundwhite {
+  background: #fff;
+}
+*, *:after, *:before {
+  box-sizing: inherit;
+}
+*, *:after, *:before {
+  box-sizing: inherit;
+}
+user agent stylesheet
+div {
+  display: block;
+}
