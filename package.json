@@ -23,6 +23,7 @@
     "@azure/ng-deploy": "^0.2.3",
     "@sendgrid/mail": "^7.2.6",
     "azure-storage": "^2.10.3",
+    "pwa-install-prompt": "^1.1.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"

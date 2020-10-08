@@ -624,3 +624,9 @@ user agent stylesheet
 div {
   display: block;
 }
+.header__logo-holder .icon-svg {
+  fill: #fff;
+  width: 2.9375rem;
+  height: 1.25rem;
+}
+
