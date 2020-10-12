@@ -6,6 +6,16 @@
     color: #e8c741;
 }
 
+/* Phone icon */
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+  }
+/*  */
+
 .full-width-page .site-wide .section {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -266,3 +276,50 @@ ul, ol {
 .header__holder.is-on {
     transform: translateY(0);
 }
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    border: none;
+  }
+  
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+display: none;
+position: absolute;
+right: 0px;
+background-color:#0b2240;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+/* adds scroll */
+overflow: auto;
+height: 350px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+color:white;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #0971ce;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
